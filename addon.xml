@@ -7,6 +7,8 @@
     <import addon="xbmc.python" version="2.0"/>
     <import addon="script.module.beautifulsoup" version="3.0.8"/>
     <import addon="script.module.pyamf"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.common.plugin.cache"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>video</provides>
